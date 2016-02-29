@@ -24,4 +24,4 @@
 ![screenshot][3]
 [1]:http://www.xfyun.cn/
 [2]:http://www.tuling123.com/
-[3]:https://github.com/neilleecn/YuYinMT/blob/master/screenshoot.gif
+[3]:https://github.com/neilleecn/YuYinMT/blob/master/screenshot.gif
