@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!--我的记录-->
+    <LinearLayout
+        android:id="@+id/id_llME"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:orientation="horizontal">
+        <!--我的文字-->
+        <TextView
+            android:id="@+id/id_tvChattingMsgMe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/chatting_buddle_me"
+            android:gravity="top|right"
+            android:paddingRight="50px"
+            android:text="来自本地" />
+        <!--我的头像-->
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:src="@drawable/icon_me_avatar" />
+    </LinearLayout>
+
+    <!--机器人的记录-->
+    <LinearLayout
+        android:id="@+id/id_llMT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+        <!--机器人的头像-->
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:paddingRight="10dp"
+            android:src="@drawable/icon_mt_avatar" />
+        <!--机器人的回答-->
+        <!-- <LinearLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:orientation="vertical"
+             android:paddingTop="30dp">-->
+        <!--机器人回答中的文字-->
+        <TextView
+            android:id="@+id/id_tvChattingMsgMT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/chatting_buddle_mt"
+            android:gravity="top"
+            android:paddingLeft="50px"
+            android:text="来自云端" />
+        <!--   </LinearLayout>-->
+    </LinearLayout>
+
+</RelativeLayout>
